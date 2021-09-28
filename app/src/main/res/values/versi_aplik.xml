@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- styles.xml -->
+    <style name="versi_aplik">
+
+        <item name="android:textSize">
+            14sp
+        </item>
+
+        <item name="android:textColor">
+            #000000
+        </item>
+
+    </style>
+
+
+    <!-- strings.xml -->
+    <string name="versi_aplik">
+
+Versi Aplikasi 1.1.1
+</string>
+
+
+</resources>
