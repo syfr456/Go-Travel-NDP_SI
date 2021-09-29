@@ -1,3 +1,29 @@
 <resources>
     <string name="app_name">Go Travel</string>
+    <string name="name">Name</string>
+    <string name="pesawat">PESAWAT</string>
+    <string name="syarat_penerbangan">Syarat Penerbangan</string>
+    <string name="informasi_tambahan">Informasi Tambahan</string>
+    <string name="cari_penerbangan">cari penerbangan</string>
+    <string name="_1_penumpang_ekonomi">1 Penumpang, Ekonomi</string>
+    <string name="tujuan">Tujuan</string>
+    <string name="batam_bth">Batam BTH</string>
+    <string name="cara_refund_tiket_pesawat">Cara Refund Tiket Pesawat</string>
+    <string name="cara_reschedule_penerbangan">Cara Reschedule Penerbangan</string>
+    <string name="tanggal">Tanggal</string>
+    <string name="sign_up">Sign up</string>
+    <string name="tidak_ada_akun">Tidak ada akun?</string>
+    <string name="atau_dengan">_____atau dengan_____</string>
+    <string name="log_in">Log in</string>
+    <string name="password">Password</string>
+    <string name="email_username">Email/Username</string>
+    <string name="sign_in">Sign in</string>
+    <string name="sign_in_to_your_account">Sign in to your account</string>
+    <string name="create">Create</string>
+    <string name="phone">Phone</string>
+    <string name="email">Email</string>
+    <string name="register">Register</string>
+    <string name="make_your_account">Make your account</string>
+    <string name="tanah_lot">Tanah Lot</string>
+    <string name="pesan_sekarang">Pesan Sekarang</string>
 </resources>
