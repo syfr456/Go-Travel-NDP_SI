@@ -3,6 +3,10 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Rivaldo/AndroidStudioProjects/Go-Travel-NDP_SI/app/src/main/res/drawable/box_penerbangan.xml" value="0.2564814814814815" />
+        <entry key="..\:/Users/Rivaldo/AndroidStudioProjects/Go-Travel-NDP_SI/app/src/main/res/layout/activity_home.xml" value="0.1671195652173913" />
+        <entry key="..\:/Users/Rivaldo/AndroidStudioProjects/Go-Travel-NDP_SI/app/src/main/res/layout/activity_intro3.xml" value="0.1671195652173913" />
+        <entry key="..\:/Users/Rivaldo/AndroidStudioProjects/Go-Travel-NDP_SI/app/src/main/res/layout/activity_pesan_tiket.xml" value="0.1671195652173913" />
         <entry key="app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.209375" />
         <entry key="app/src/main/res/drawable/go_travel_1.xml" value="0.209375" />
         <entry key="app/src/main/res/drawable/splash_scre.xml" value="0.209375" />

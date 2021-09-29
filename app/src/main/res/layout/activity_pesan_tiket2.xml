@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PesanTiket2">
+
+    <View
+        android:id="@+id/rectangle_9"
+        android:layout_width="wrap_content"
+        android:layout_height="120dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/rectangle_pesantiket"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints"/>
+
+    <ImageView
+        android:id="@+id/backbutton"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:contentDescription="@string/app_name"
+        android:rotation="180"
+        android:src="@drawable/vector_arrow_left"
+        app:layout_constraintBottom_toBottomOf="@+id/rectangle_9"
+        app:layout_constraintEnd_toEndOf="@+id/rectangle_9"
+        app:layout_constraintHorizontal_bias="0.02"
+        app:layout_constraintStart_toStartOf="@+id/rectangle_9"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Penerbangan"
+        android:textColor="@color/white"
+        android:textSize="24dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/rectangle_9"
+        app:layout_constraintEnd_toEndOf="@+id/rectangle_9"
+        app:layout_constraintHorizontal_bias="0.177"
+        app:layout_constraintStart_toStartOf="@+id/rectangle_9"
+        app:layout_constraintTop_toTopOf="@+id/rectangle_9"
+        app:layout_constraintVertical_bias="0.488"
+        tools:ignore="MissingConstraints" />
+
+    <View
+        android:id="@+id/rectangle_pilihmaskapai"
+        android:layout_width="366dp"
+        android:layout_height="40dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/rectangle_pesan_tiket3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rectangle_9"
+        app:layout_constraintVertical_bias="0.038"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pilih Maskapai Anda"
+        android:textColor="@color/black"
+        android:textSize="14dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/rectangle_pilihmaskapai"
+        app:layout_constraintEnd_toEndOf="@+id/rectangle_pilihmaskapai"
+        app:layout_constraintHorizontal_bias="0.106"
+        app:layout_constraintStart_toStartOf="@+id/rectangle_pilihmaskapai"
+        app:layout_constraintTop_toTopOf="@+id/rectangle_pilihmaskapai"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/vector_arrow_left"
+        app:layout_constraintBottom_toBottomOf="@+id/rectangle_pilihmaskapai"
+        app:layout_constraintEnd_toEndOf="@+id/rectangle_pilihmaskapai"
+        app:layout_constraintHorizontal_bias="0.896"
+        app:layout_constraintStart_toEndOf="@+id/textView1"
+        app:layout_constraintTop_toTopOf="@+id/rectangle_pilihmaskapai"
+        app:layout_constraintVertical_bias="0.526" />
+
+    <View
+        android:id="@+id/rectangle_box1"
+        android:layout_width="366dp"
+        android:layout_height="92dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/box_penerbangan"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.488"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rectangle_pilihmaskapai"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="39dp"
+        android:layout_height="26dp"
+        android:src="@drawable/LionAir"
+        app:layout_constraintBottom_toBottomOf="@+id/rectangle_box1"
+        app:layout_constraintEnd_toEndOf="@+id/rectangle_box1"
+        app:layout_constraintHorizontal_bias="0.039"
+        app:layout_constraintStart_toStartOf="@+id/rectangle_box1"
+        app:layout_constraintTop_toTopOf="@+id/rectangle_box1"
+        app:layout_constraintVertical_bias="0.121" />
+
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lion Air"
+        android:textColor="@color/black"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/rectangle_box1"
+        app:layout_constraintEnd_toEndOf="@+id/rectangle_box1"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/imageView"
+        app:layout_constraintTop_toTopOf="@+id/rectangle_box1"
+        app:layout_constraintVertical_bias="0.147" />
+
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="08:00 - 10:00"
+        android:textColor="@color/black"
+        android:textSize="17dp"
+        android:textStyle="normal"
+        app:layout_constraintBottom_toBottomOf="@+id/rectangle_box1"
+        app:layout_constraintEnd_toEndOf="@+id/rectangle_box1"
+        app:layout_constraintHorizontal_bias="0.048"
+        app:layout_constraintStart_toStartOf="@+id/rectangle_box1"
+        app:layout_constraintTop_toTopOf="@+id/rectangle_box1"
+        app:layout_constraintVertical_bias="0.492" />
+
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CGK"
+        android:textColor="@color/black"
+        android:textSize="18dp"
+        android:textStyle="normal"
+        app:layout_constraintBottom_toBottomOf="@+id/rectangle_box1"
+        app:layout_constraintEnd_toEndOf="@+id/rectangle_box1"
+        app:layout_constraintHorizontal_bias="0.039"
+        app:layout_constraintStart_toStartOf="@+id/rectangle_box1"
+        app:layout_constraintTop_toBottomOf="@+id/textView10"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BTH"
+        android:textColor="@color/black"
+        android:textSize="18dp"
+        android:textStyle="normal"
+        app:layout_constraintBottom_toBottomOf="@+id/rectangle_box1"
+        app:layout_constraintEnd_toEndOf="@+id/rectangle_box1"
+        app:layout_constraintHorizontal_bias="0.229"
+        app:layout_constraintStart_toStartOf="@+id/rectangle_box1"
+        app:layout_constraintTop_toBottomOf="@+id/textView10"
+        app:layout_constraintVertical_bias="0.0" />
+
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="IDR 950.000/pax"
+        android:textColor="#FF0000"
+        android:textSize="18dp"
+        android:textStyle="normal"
+        app:layout_constraintBottom_toBottomOf="@+id/rectangle_box1"
+        app:layout_constraintEnd_toEndOf="@+id/rectangle_box1"
+        app:layout_constraintHorizontal_bias="0.91"
+        app:layout_constraintStart_toEndOf="@+id/textView10"
+        app:layout_constraintTop_toTopOf="@+id/rectangle_box1"
+        tools:ignore="MissingConstraints" />
+
+    <View
+        android:id="@+id/rectangle_box3"
+        android:layout_width="366dp"
+        android:layout_height="92dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/box_penerbangan"
+        app:layout_constraintBottom_toTopOf="@+id/recyclerView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.488"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rectangle_box1"
+        app:layout_constraintVertical_bias="1.0"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lion Air"
+        android:textColor="@color/black"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/rectangle_box3"
+        app:layout_constraintEnd_toEndOf="@+id/rectangle_box3"
+        app:layout_constraintHorizontal_bias="0.171"
+        app:layout_constraintStart_toStartOf="@+id/rectangle_box3"
+        app:layout_constraintTop_toTopOf="@+id/rectangle_box3"
+        app:layout_constraintVertical_bias="0.044"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="11:00 - 12:30"
+        android:textColor="@color/black"
+        android:textSize="17dp"
+        android:textStyle="normal"
+        app:layout_constraintBottom_toBottomOf="@+id/rectangle_box3"
+        app:layout_constraintEnd_toEndOf="@+id/rectangle_box3"
+        app:layout_constraintHorizontal_bias="0.059"
+        app:layout_constraintStart_toStartOf="@+id/rectangle_box3"
+        app:layout_constraintTop_toTopOf="@+id/rectangle_box3"
+        app:layout_constraintVertical_bias="0.463"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="39dp"
+        android:layout_height="26dp"
+        android:src="@drawable/LionAir"
+        app:layout_constraintBottom_toTopOf="@+id/textView15"
+        app:layout_constraintEnd_toStartOf="@+id/textView14"
+        app:layout_constraintTop_toTopOf="@+id/rectangle_box3"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CGK"
+        android:textColor="@color/black"
+        android:textSize="18dp"
+        android:textStyle="normal"
+        app:layout_constraintBottom_toBottomOf="@+id/rectangle_box3"
+        app:layout_constraintEnd_toEndOf="@+id/rectangle_box3"
+        app:layout_constraintHorizontal_bias="0.051"
+        app:layout_constraintStart_toStartOf="@+id/rectangle_box3"
+        app:layout_constraintTop_toTopOf="@+id/rectangle_box3"
+        app:layout_constraintVertical_bias="0.823"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BTH"
+        android:textColor="@color/black"
+        android:textSize="18dp"
+        android:textStyle="normal"
+        app:layout_constraintBottom_toBottomOf="@+id/rectangle_box3"
+        app:layout_constraintEnd_toEndOf="@+id/rectangle_box3"
+        app:layout_constraintHorizontal_bias="0.238"
+        app:layout_constraintStart_toStartOf="@+id/rectangle_box3"
+        app:layout_constraintTop_toTopOf="@+id/rectangle_box3"
+        app:layout_constraintVertical_bias="0.808"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="IDR 950.000/pax"
+        android:textColor="#FF0000"
+        android:textSize="18dp"
+        android:textStyle="normal"
+        app:layout_constraintBottom_toBottomOf="@+id/rectangle_box3"
+        app:layout_constraintEnd_toEndOf="@+id/rectangle_box3"
+        app:layout_constraintHorizontal_bias="0.91"
+        app:layout_constraintStart_toEndOf="@+id/textView15"
+        app:layout_constraintTop_toTopOf="@+id/rectangle_box3"
+        app:layout_constraintVertical_bias="0.47"
+        tools:ignore="MissingConstraints" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="409dp"
+        android:layout_height="330dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="400dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

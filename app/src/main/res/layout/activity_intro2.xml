@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".intro_2">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="-25dp"
+            android:layout_marginBottom="50dp">
+
+            <ImageView
+                android:layout_width="575dp"
+                android:layout_height="494dp"
+                android:layout_marginLeft="-85dp"
+                android:layout_marginTop="-50dp"
+                android:src="@drawable/intro2">
+
+            </ImageView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="-390dp"
+            android:background="@drawable/shape"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <View
+                android:id="@+id/ellipse_1"
+                android:layout_width="16dp"
+                android:layout_height="16dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="294dp"
+                android:layout_marginTop="40dp"
+                android:background="@drawable/ellipse_5" />
+
+            <View
+                android:id="@+id/ellipse_2"
+                android:layout_width="16dp"
+                android:layout_height="16dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="323dp"
+                android:layout_marginTop="-16dp"
+                android:background="@drawable/ellipse_4" />
+
+            <View
+                android:id="@+id/ellipse_3"
+                android:layout_width="16dp"
+                android:layout_height="16dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="350dp"
+                android:layout_marginTop="-16dp"
+                android:background="@drawable/ellipse_5" />
+
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="43dp"
+                android:layout_marginTop="30dp"
+                android:fontFamily="sans-serif"
+                android:text="Pilih Destinasi"
+                android:textColor="@color/black"
+                android:textSize="28dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="43dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="sans-serif"
+                android:text="Anda menikmatin kenyamanan  dan kemudahan pesan tiket sekarang semua pasti jadi lebih baik"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                android:textStyle="normal" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/skip1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="63dp"
+                    android:layout_marginTop="80dp"
+                    android:fontFamily="sans-serif"
+                    android:text="Skip"
+                    android:textColor="#007EBD"
+                    android:textSize="22dp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/button2"
+                    android:layout_width="95dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="170dp"
+                    android:layout_marginTop="80dp"
+                    android:background="@drawable/rectangle_1"
+                    android:text="Next"
+                    android:textColor="@color/white" />
+
+
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

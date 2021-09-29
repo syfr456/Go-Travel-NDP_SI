@@ -1,0 +1,434 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Detail">
+
+    <View
+        android:id="@+id/rectangle_9"
+        android:layout_width="wrap_content"
+        android:layout_height="120dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/rectangle_pesantiket"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/backbutton"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:contentDescription="@string/app_name"
+        android:rotation="180"
+        android:src="@drawable/vector_arrow_left"
+        app:layout_constraintBottom_toBottomOf="@+id/rectangle_9"
+        app:layout_constraintEnd_toEndOf="@+id/rectangle_9"
+        app:layout_constraintHorizontal_bias="0.02"
+        app:layout_constraintStart_toStartOf="@+id/rectangle_9"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Penerbangan"
+        android:textColor="@color/white"
+        android:textSize="24dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/rectangle_9"
+        app:layout_constraintEnd_toEndOf="@+id/rectangle_9"
+        app:layout_constraintHorizontal_bias="0.177"
+        app:layout_constraintStart_toStartOf="@+id/rectangle_9"
+        app:layout_constraintTop_toTopOf="@+id/rectangle_9"
+        app:layout_constraintVertical_bias="0.488"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Informasi Penerbangan"
+        android:textColor="@color/black"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/rectangle_box1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.098"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rectangle_9"
+        app:layout_constraintVertical_bias="0.583"
+        tools:ignore="MissingConstraints" />
+
+    <View
+        android:id="@+id/rectangle_box1"
+        android:layout_width="366dp"
+        android:layout_height="92dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="60dp"
+        android:background="@drawable/box_penerbangan"
+        app:layout_constraintBottom_toTopOf="@+id/rectangle_box2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.511"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rectangle_9"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Jakarta -> Batam"
+        android:textColor="@color/black"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/line_8"
+        app:layout_constraintEnd_toStartOf="@+id/backbutton2"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/imageView"
+        app:layout_constraintTop_toTopOf="@+id/rectangle_box1"
+        app:layout_constraintVertical_bias="0.666"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/backbutton2"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:contentDescription="@string/app_name"
+        android:rotation="90"
+        android:src="@drawable/vector_arrow_left"
+        app:layout_constraintBottom_toBottomOf="@+id/line_8"
+        app:layout_constraintEnd_toEndOf="@+id/line_8"
+        app:layout_constraintHorizontal_bias="0.973"
+        app:layout_constraintStart_toEndOf="@+id/imageView"
+        app:layout_constraintTop_toTopOf="@+id/rectangle_box1"
+        app:layout_constraintVertical_bias="0.375"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="39dp"
+        android:layout_height="26dp"
+        android:src="@drawable/LionAir"
+        app:layout_constraintBottom_toBottomOf="@+id/rectangle_box1"
+        app:layout_constraintEnd_toEndOf="@+id/rectangle_box1"
+        app:layout_constraintHorizontal_bias="0.015"
+        app:layout_constraintStart_toStartOf="@+id/rectangle_box1"
+        app:layout_constraintTop_toTopOf="@+id/rectangle_box1"
+        app:layout_constraintVertical_bias="0.0" />
+
+
+    <View
+        android:id="@+id/line_8"
+        android:layout_width="366dp"
+        android:layout_height="1dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/line_pesan_tiket"
+        app:layout_constraintBottom_toBottomOf="@+id/rectangle_box1"
+        app:layout_constraintEnd_toEndOf="@+id/rectangle_box1"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/rectangle_box1"
+        app:layout_constraintTop_toTopOf="@+id/rectangle_box1"
+        app:layout_constraintVertical_bias="0.292" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Jum, 17 September 2021 - 06:00 - Ekonomi"
+        android:textColor="@color/black"
+        android:textSize="12dp"
+        android:textStyle="normal"
+        app:layout_constraintBottom_toBottomOf="@+id/rectangle_box1"
+        app:layout_constraintEnd_toEndOf="@+id/rectangle_box1"
+        app:layout_constraintHorizontal_bias="0.112"
+        app:layout_constraintStart_toStartOf="@+id/rectangle_box1"
+        app:layout_constraintTop_toBottomOf="@+id/textView34"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView34"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CGK -> BTH"
+        android:textColor="@color/black"
+        android:textSize="16dp"
+        android:textStyle="normal"
+        app:layout_constraintBottom_toBottomOf="@+id/rectangle_box1"
+        app:layout_constraintEnd_toEndOf="@+id/rectangle_box1"
+        app:layout_constraintHorizontal_bias="0.053"
+        app:layout_constraintStart_toStartOf="@+id/rectangle_box1"
+        app:layout_constraintTop_toBottomOf="@+id/line_8"
+        app:layout_constraintVertical_bias="0.333"
+        tools:ignore="MissingConstraints" />
+
+    <View
+        android:id="@+id/rectangle_box2"
+        android:layout_width="367dp"
+        android:layout_height="203dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/box_penerbangan"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rectangle_9"
+        app:layout_constraintVertical_bias="0.443"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="24dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Harga"
+        android:textColor="@color/black"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/line_2"
+        app:layout_constraintEnd_toEndOf="@+id/line_2"
+        app:layout_constraintHorizontal_bias="0.05"
+        app:layout_constraintStart_toStartOf="@+id/line_2"
+        app:layout_constraintTop_toTopOf="@+id/rectangle_box2"
+        app:layout_constraintVertical_bias="0.888"
+        tools:ignore="MissingConstraints" />
+
+    <View
+        android:id="@+id/line_2"
+        android:layout_width="366dp"
+        android:layout_height="1dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/line_pesan_tiket"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.488"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="325dp" />
+
+    <TextView
+        android:id="@+id/textView38"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tarif"
+        android:textColor="@color/black"
+        android:textSize="14dp"
+        android:textStyle="normal"
+        app:layout_constraintBottom_toTopOf="@+id/textView35"
+        app:layout_constraintEnd_toEndOf="@+id/line_2"
+        app:layout_constraintHorizontal_bias="0.047"
+        app:layout_constraintStart_toStartOf="@+id/line_2"
+        app:layout_constraintTop_toTopOf="@+id/line_2"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView35"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="- Dewasa (x1)"
+        android:textColor="#8D000000"
+        android:textSize="12dp"
+        android:textStyle="normal"
+        app:layout_constraintBottom_toTopOf="@+id/textView39"
+        app:layout_constraintEnd_toEndOf="@+id/line_2"
+        app:layout_constraintHorizontal_bias="0.054"
+        app:layout_constraintStart_toStartOf="@+id/line_2"
+        app:layout_constraintTop_toBottomOf="@+id/line_2"
+        app:layout_constraintVertical_bias="0.666"
+        tools:ignore="MissingConstraints" />
+
+
+    <TextView
+        android:id="@+id/textView37"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rp  950,000,00"
+        android:textColor="@color/black"
+        android:textSize="12dp"
+        android:textStyle="normal"
+        app:layout_constraintBottom_toTopOf="@+id/textView40"
+        app:layout_constraintEnd_toEndOf="@+id/line_2"
+        app:layout_constraintHorizontal_bias="0.938"
+        app:layout_constraintStart_toEndOf="@+id/textView35"
+        app:layout_constraintTop_toBottomOf="@+id/line_2"
+        app:layout_constraintVertical_bias="0.391"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView39"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pajak dan Biaya Lainnya"
+        android:textColor="@color/black"
+        android:textSize="14dp"
+        android:textStyle="normal"
+        app:layout_constraintBottom_toTopOf="@+id/line_3"
+        app:layout_constraintEnd_toEndOf="@+id/rectangle_box2"
+        app:layout_constraintHorizontal_bias="0.069"
+        app:layout_constraintStart_toStartOf="@+id/rectangle_box2"
+        app:layout_constraintTop_toBottomOf="@+id/line_2"
+        app:layout_constraintVertical_bias="0.452"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView43"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="- Pajak"
+        android:textColor="#8D000000"
+        android:textSize="12dp"
+        android:textStyle="normal"
+        app:layout_constraintBottom_toTopOf="@+id/textView41"
+        app:layout_constraintEnd_toStartOf="@+id/textView40"
+        app:layout_constraintHorizontal_bias="0.057"
+        app:layout_constraintStart_toStartOf="@+id/rectangle_box2"
+        app:layout_constraintTop_toBottomOf="@+id/textView39"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView40"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Termasuk"
+        android:textColor="@color/black"
+        android:textSize="12dp"
+        android:textStyle="normal"
+        app:layout_constraintBottom_toTopOf="@+id/textView42"
+        app:layout_constraintEnd_toEndOf="@+id/rectangle_box2"
+        app:layout_constraintHorizontal_bias="0.958"
+        app:layout_constraintStart_toStartOf="@+id/rectangle_box2"
+        app:layout_constraintTop_toBottomOf="@+id/line_2"
+        app:layout_constraintVertical_bias="1.0"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView41"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Biaya Lainnya"
+        android:textColor="#8D000000"
+        android:textSize="12dp"
+        android:textStyle="normal"
+        app:layout_constraintBottom_toTopOf="@+id/line_3"
+        app:layout_constraintEnd_toEndOf="@+id/rectangle_box2"
+        app:layout_constraintHorizontal_bias="0.054"
+        app:layout_constraintStart_toStartOf="@+id/rectangle_box2"
+        app:layout_constraintTop_toBottomOf="@+id/line_2"
+        app:layout_constraintVertical_bias="0.795"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView42"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Gratis"
+        android:textColor="@color/black"
+        android:textSize="12dp"
+        android:textStyle="normal"
+        app:layout_constraintBottom_toTopOf="@+id/line_3"
+        app:layout_constraintEnd_toEndOf="@+id/rectangle_box2"
+        app:layout_constraintHorizontal_bias="0.947"
+        app:layout_constraintStart_toEndOf="@+id/textView41"
+        app:layout_constraintTop_toBottomOf="@+id/line_2"
+        app:layout_constraintVertical_bias="0.795"
+        tools:ignore="MissingConstraints" />
+
+    <View
+        android:id="@+id/line_3"
+        android:layout_width="366dp"
+        android:layout_height="1dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/line_pesan_tiket"
+        app:layout_constraintBottom_toBottomOf="@+id/rectangle_box2"
+        app:layout_constraintEnd_toEndOf="@+id/rectangle_box2"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/rectangle_box2"
+        app:layout_constraintTop_toBottomOf="@+id/line_2"
+        app:layout_constraintVertical_bias="0.704"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView44"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Subtotal"
+        android:textColor="@color/black"
+        android:textSize="14dp"
+        android:textStyle="normal"
+        app:layout_constraintBottom_toTopOf="@+id/imageView5"
+        app:layout_constraintEnd_toEndOf="@+id/line_3"
+        app:layout_constraintHorizontal_bias="0.047"
+        app:layout_constraintStart_toStartOf="@+id/line_3"
+        app:layout_constraintTop_toBottomOf="@+id/line_3"
+        app:layout_constraintVertical_bias="0.7"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rp  950,000,00"
+        android:textColor="#4376FA"
+        android:textSize="12dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/textView45"
+        app:layout_constraintEnd_toEndOf="@+id/line_3"
+        app:layout_constraintHorizontal_bias="0.967"
+        app:layout_constraintStart_toEndOf="@+id/textView44"
+        app:layout_constraintTop_toBottomOf="@+id/line_3"
+        app:layout_constraintVertical_bias="0.538"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView45"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Gunakan kode promo untuk potongan harga"
+        android:textColor="#94000000"
+        android:textSize="12dp"
+        android:textStyle="normal"
+        app:layout_constraintBottom_toBottomOf="@+id/rectangle_box2"
+        app:layout_constraintEnd_toEndOf="@+id/line_3"
+        app:layout_constraintHorizontal_bias="0.351"
+        app:layout_constraintStart_toStartOf="@+id/line_3"
+        app:layout_constraintTop_toBottomOf="@+id/line_3"
+        app:layout_constraintVertical_bias="0.743"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="19dp"
+        android:layout_height="18dp"
+        android:src="@drawable/ic_alert_circle"
+        app:layout_constraintBottom_toBottomOf="@+id/rectangle_box2"
+        app:layout_constraintEnd_toStartOf="@+id/textView45"
+        app:layout_constraintHorizontal_bias="0.6"
+        app:layout_constraintStart_toStartOf="@+id/line_3"
+        app:layout_constraintTop_toBottomOf="@+id/line_3"
+        app:layout_constraintVertical_bias="0.729"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/rectangle_4"
+        android:layout_width="310dp"
+        android:layout_height="38dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/button_pesan_tiket"
+        android:text="Lanjutkan Pemesanan"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rectangle_box2"
+        app:layout_constraintVertical_bias="0.111"
+        tools:ignore="MissingConstraints" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
