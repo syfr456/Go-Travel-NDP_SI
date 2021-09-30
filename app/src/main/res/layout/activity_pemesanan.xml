@@ -114,7 +114,7 @@
         android:id="@+id/imageView"
         android:layout_width="39dp"
         android:layout_height="26dp"
-        android:src="@drawable/LionAir"
+        android:src="@drawable/lion_air"
         app:layout_constraintBottom_toBottomOf="@+id/rectangle_box1"
         app:layout_constraintEnd_toEndOf="@+id/rectangle_box1"
         app:layout_constraintHorizontal_bias="0.015"
@@ -154,6 +154,7 @@
         tools:ignore="MissingConstraints" />
 
     <TextView
+        android:id="@+id/textView48"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Jum, 17 September 2021 - 06:00 - Ekonomi"
@@ -168,16 +169,21 @@
         app:layout_constraintVertical_bias="0.75"
         tools:ignore="MissingConstraints" />
 
-        <View
+    <View
         android:id="@+id/rectangle_box2"
         android:layout_width="366dp"
         android:layout_height="92dp"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
+        android:layout_marginTop="36dp"
         android:background="@drawable/box_penerbangan"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="22dp"
-        tools:layout_editor_absoluteY="319dp" />
+        app:layout_constraintBottom_toTopOf="@+id/rectangle_box3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.488"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rectangle_box1"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="MissingConstraints" />
 
     <TextView
         android:id="@+id/textView24"
@@ -238,17 +244,21 @@
         app:layout_constraintStart_toEndOf="@+id/textView23"
         app:layout_constraintTop_toTopOf="@+id/rectangle_box2" />
 
-        <TextView
-            android:id="@+id/textView25"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Detail Penumpang"
-            android:textColor="@color/black"
-            android:textSize="16dp"
-            android:textStyle="bold"
-            tools:layout_editor_absoluteX="27dp"
-            tools:layout_editor_absoluteY="285dp"
-            tools:ignore="MissingConstraints" />
+    <TextView
+        android:id="@+id/textView25"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Detail Penumpang"
+        android:textColor="@color/black"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/rectangle_box2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rectangle_box1"
+        app:layout_constraintVertical_bias="1.0"
+        tools:ignore="MissingConstraints" />
 
     <TextView
         android:id="@+id/textView26"
@@ -304,9 +314,13 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
         android:background="@drawable/box_penerbangan"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="22dp"
-        tools:layout_editor_absoluteY="484dp" />
+        app:layout_constraintBottom_toTopOf="@+id/line_9"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.6"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rectangle_box1"
+        app:layout_constraintVertical_bias="0.656"
+        tools:ignore="MissingConstraints" />
 
     <TextView
         android:id="@+id/textView28"
@@ -346,10 +360,10 @@
         android:textStyle="normal"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/textView29"
-        app:layout_constraintHorizontal_bias="0.118"
+        app:layout_constraintHorizontal_bias="0.117"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/rectangle_box3"
-        app:layout_constraintVertical_bias="0.219"
+        app:layout_constraintVertical_bias="0.325"
         tools:ignore="MissingConstraints" />
 
     <TextView
@@ -362,10 +376,10 @@
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.93"
+        app:layout_constraintHorizontal_bias="0.933"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/rectangle_box3"
-        app:layout_constraintVertical_bias="0.228"
+        app:layout_constraintVertical_bias="0.321"
         tools:ignore="MissingConstraints" />
 
     <TextView
@@ -376,12 +390,12 @@
         android:textColor="@color/black"
         android:textSize="14dp"
         android:textStyle="normal"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/line_9"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.081"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView32"
-        app:layout_constraintVertical_bias="0.022"
+        app:layout_constraintVertical_bias="0.129"
         tools:ignore="MissingConstraints" />
 
     <TextView
@@ -392,7 +406,7 @@
         android:textColor="#4376FA"
         android:textSize="12dp"
         android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/line_9"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.929"
         app:layout_constraintStart_toEndOf="@+id/textView31"
@@ -407,20 +421,23 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
         android:background="@drawable/line_pesan_tiket"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="611dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rectangle_box1"
+        app:layout_constraintVertical_bias="0.742"
         tools:ignore="MissingConstraints" />
 
     <TextView
         android:id="@+id/textView33"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="84dp"
         android:text="Total Pesanan"
         android:textColor="@color/black"
         android:textSize="14dp"
         android:textStyle="normal"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/btn_pemesanan"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.093"
         app:layout_constraintStart_toStartOf="parent"
@@ -436,7 +453,7 @@
         android:textSize="12dp"
         android:textStyle="bold"
 
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/btn_pemesanan"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.88"
         app:layout_constraintStart_toEndOf="@+id/textView33"
@@ -445,7 +462,7 @@
         tools:ignore="MissingConstraints" />
 
     <Button
-        android:id="@+id/rectangle"
+        android:id="@+id/btn_pemesanan"
         android:layout_width="310dp"
         android:layout_height="38dp"
         android:layout_alignParentLeft="true"

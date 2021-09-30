@@ -380,7 +380,7 @@
         android:layout_marginTop="496dp"
         android:layout_marginEnd="333dp"
         android:layout_marginBottom="209dp"
-        android:src="@drawable/lionair"
+        android:src="@drawable/lion_air"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

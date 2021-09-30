@@ -89,25 +89,29 @@
         app:layout_constraintTop_toTopOf="@+id/rectangle_pilihmaskapai"
         app:layout_constraintVertical_bias="0.526" />
 
+
     <View
         android:id="@+id/rectangle_box1"
         android:layout_width="366dp"
         android:layout_height="92dp"
-        android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
         android:layout_marginTop="16dp"
         android:background="@drawable/box_penerbangan"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.488"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/rectangle_pilihmaskapai"
+        app:layout_constraintVertical_bias="0.006"
         tools:ignore="MissingConstraints" />
+
+
 
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="39dp"
         android:layout_height="26dp"
-        android:src="@drawable/lionair"
+        android:src="@drawable/lion_air"
         app:layout_constraintBottom_toBottomOf="@+id/rectangle_box1"
         app:layout_constraintEnd_toEndOf="@+id/rectangle_box1"
         app:layout_constraintHorizontal_bias="0.039"
@@ -194,19 +198,21 @@
         app:layout_constraintTop_toTopOf="@+id/rectangle_box1"
         tools:ignore="MissingConstraints" />
 
+
     <View
         android:id="@+id/rectangle_box3"
         android:layout_width="366dp"
         android:layout_height="92dp"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
+        android:layout_marginTop="16dp"
         android:background="@drawable/box_penerbangan"
-        app:layout_constraintBottom_toTopOf="@+id/recyclerView"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.488"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/rectangle_box1"
-        app:layout_constraintVertical_bias="1.0"
+        app:layout_constraintVertical_bias="0.012"
         tools:ignore="MissingConstraints" />
 
     <TextView
@@ -245,7 +251,7 @@
         android:id="@+id/imageView2"
         android:layout_width="39dp"
         android:layout_height="26dp"
-        android:src="@drawable/lionair"
+        android:src="@drawable/lion_air"
         app:layout_constraintBottom_toTopOf="@+id/textView15"
         app:layout_constraintEnd_toStartOf="@+id/textView14"
         app:layout_constraintTop_toTopOf="@+id/rectangle_box3"
@@ -299,13 +305,17 @@
         app:layout_constraintVertical_bias="0.47"
         tools:ignore="MissingConstraints" />
 
-    <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/recyclerView"
-        android:layout_width="409dp"
-        android:layout_height="330dp"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="1dp"
-        tools:layout_editor_absoluteY="400dp" />
-
+    <Button
+        android:id="@+id/btn_pesantiket2"
+        android:layout_width="269dp"
+        android:layout_height="44dp"
+        android:text="Pilih Penerbangan"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.521"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rectangle_box3"
+        app:layout_constraintVertical_bias="0.081"
+        tools:ignore="TouchTargetSizeCheck" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

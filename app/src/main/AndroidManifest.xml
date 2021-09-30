@@ -11,15 +11,30 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.GoTravel"
         tools:ignore="AllowBackup">
+        <activity android:name=".Invoice"/>
+        <activity android:name=".FormLogin"/>
+        <activity android:name=".intro_1"/>
+        <activity android:name=".intro_2"/>
+        <activity android:name=".intro_3"/>
+        <activity android:name=".Pembayaran"/>
+        <activity android:name=".PesanTiket" />
+        <activity android:name=".PesanTiket2" />
+        <activity android:name=".FormRegistrasi" />
+        <activity android:name=".Home" />
+        <activity android:name=".Detail" />
+        <activity android:name=".MPembayaran" />
+        <activity android:name=".Pemesanan" />
+
+
         <activity
-            android:name=".Invoice"
-            android:exported="true" />
-        <activity
-            android:name=".Pembayaran"
-            android:exported="true" />
-        <activity
-            android:name=".Splash"
-            android:exported="true" />
+            android:name=".SplashActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
         <activity
             android:name=".KebijakanPrivasi"
             android:exported="true" />
@@ -29,7 +44,7 @@
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
+                <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
     </application>

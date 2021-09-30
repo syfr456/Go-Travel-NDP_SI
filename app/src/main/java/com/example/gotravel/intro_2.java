@@ -16,7 +16,7 @@ public class intro_2 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_intro2);
 
-        tombol1 = (Button) findViewById(R.id.button1);
+        tombol1 = (Button) findViewById(R.id.button2);
 
 
         tombol1.setOnClickListener(new View.OnClickListener() {

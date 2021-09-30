@@ -114,7 +114,7 @@
         android:id="@+id/imageView"
         android:layout_width="39dp"
         android:layout_height="26dp"
-        android:src="@drawable/LionAir"
+        android:src="@drawable/lion_air"
         app:layout_constraintBottom_toBottomOf="@+id/rectangle_box1"
         app:layout_constraintEnd_toEndOf="@+id/rectangle_box1"
         app:layout_constraintHorizontal_bias="0.015"
@@ -177,10 +177,11 @@
         android:layout_alignParentTop="true"
         android:background="@drawable/box_penerbangan"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/rectangle_9"
         app:layout_constraintVertical_bias="0.443"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="24dp" />
+        tools:ignore="MissingConstraints" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -190,11 +191,11 @@
         android:textSize="18dp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="@+id/line_2"
-        app:layout_constraintEnd_toEndOf="@+id/line_2"
-        app:layout_constraintHorizontal_bias="0.05"
-        app:layout_constraintStart_toStartOf="@+id/line_2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.101"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/rectangle_box2"
-        app:layout_constraintVertical_bias="0.888"
+        app:layout_constraintVertical_bias="1.0"
         tools:ignore="MissingConstraints" />
 
     <View
@@ -204,11 +205,13 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
         android:background="@drawable/line_pesan_tiket"
+        app:layout_constraintBottom_toBottomOf="@+id/rectangle_box2"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.488"
+        app:layout_constraintHorizontal_bias="0.511"
         app:layout_constraintStart_toStartOf="parent"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteY="325dp" />
+        app:layout_constraintTop_toTopOf="@+id/rectangle_box2"
+        app:layout_constraintVertical_bias="0.173"
+        tools:ignore="MissingConstraints" />
 
     <TextView
         android:id="@+id/textView38"
@@ -415,7 +418,7 @@
         tools:ignore="MissingConstraints" />
 
     <Button
-        android:id="@+id/rectangle_4"
+        android:id="@+id/btn_detail"
         android:layout_width="310dp"
         android:layout_height="38dp"
         android:layout_alignParentLeft="true"

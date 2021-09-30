@@ -98,10 +98,10 @@
 
     <ImageView
         android:id="@+id/imageView18"
-        android:layout_width="match_parent"
-        android:layout_height="109dp"
+        android:layout_width="353dp"
+        android:layout_height="99dp"
         android:layout_marginStart="30dp"
-        android:layout_marginTop="24dp"
+        android:layout_marginTop="4dp"
         android:layout_marginEnd="30dp"
         android:src="@drawable/groupp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -242,18 +242,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:srcCompat="@drawable/iii" />
 
-    <Button
-        android:id="@+id/button"
-        android:layout_width="149dp"
-        android:layout_height="38dp"
-        android:layout_marginStart="120dp"
-        android:layout_marginEnd="120dp"
-        android:layout_marginBottom="10dp"
-        android:text="konfirmasi"
-        app:layout_constraintBottom_toTopOf="@+id/linearLayout"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        tools:ignore="TouchTargetSizeCheck" />
+
 
     <LinearLayout
         android:id="@+id/linearLayout"
@@ -360,6 +349,7 @@
         android:id="@+id/imageView10"
         android:layout_width="393dp"
         android:layout_height="165dp"
+        android:layout_marginTop="492dp"
         android:src="@drawable/eeeee"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -370,7 +360,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="11dp"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="24dp"
         android:layout_marginEnd="240dp"
         android:text="Gopay"
         app:layout_constraintEnd_toEndOf="parent"
@@ -382,10 +372,11 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="13dp"
-        android:layout_marginTop="17dp"
+        android:layout_marginTop="12dp"
         android:layout_marginEnd="256dp"
         android:text="Ovo"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toEndOf="@+id/imageView12"
         app:layout_constraintTop_toBottomOf="@+id/textView16" />
 
@@ -393,10 +384,10 @@
         android:id="@+id/textView18"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="12dp"
+        android:layout_marginTop="8dp"
         android:text="Dana"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.054"
+        app:layout_constraintHorizontal_bias="0.115"
         app:layout_constraintStart_toEndOf="@+id/imageView13"
         app:layout_constraintTop_toBottomOf="@+id/textView17" />
 
@@ -405,12 +396,13 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="14dp"
-        android:layout_marginEnd="228dp"
+        android:layout_marginEnd="236dp"
         android:layout_marginBottom="19dp"
         android:text="Link Aja"
-        app:layout_constraintBottom_toTopOf="@+id/button"
+        app:layout_constraintBottom_toTopOf="@+id/btn_pesantiket"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView18" />
+        app:layout_constraintTop_toBottomOf="@+id/textView18"
+        app:layout_constraintVertical_bias="0.0" />
 
     <ImageView
         android:id="@+id/imageView11"
@@ -427,8 +419,8 @@
         android:id="@+id/imageView12"
         android:layout_width="35dp"
         android:layout_height="18dp"
-        android:layout_marginStart="68dp"
-        android:layout_marginTop="12dp"
+        android:layout_marginStart="72dp"
+        android:layout_marginTop="8dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView11"
         app:srcCompat="@drawable/ovo" />
@@ -457,5 +449,21 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView13"
         app:srcCompat="@drawable/link" />
+
+    <Button
+        android:id="@+id/btn_mpembayaran"
+        android:layout_width="149dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="120dp"
+        android:layout_marginEnd="120dp"
+        android:layout_marginBottom="10dp"
+        android:text="konfirmasi"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.59"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/linearLayout"
+        app:layout_constraintVertical_bias="0.979"
+        tools:ignore="TouchTargetSizeCheck" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

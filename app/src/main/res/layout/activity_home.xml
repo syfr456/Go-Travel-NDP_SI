@@ -31,6 +31,7 @@
         tools:ignore="SpUsage" />
 
     <Button
+        android:id="@+id/btn_pesan"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="43dp"

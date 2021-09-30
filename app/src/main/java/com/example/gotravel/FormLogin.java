@@ -7,30 +7,22 @@ import android.widget.Button;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-public class FormLogin extends AppCompatActivity implements View.OnClickListener {
+public class FormLogin extends AppCompatActivity{
 
+    Button tombol1,tombol2;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.form_login);
 
-        Button btn = findViewById(R.id.btn_login);
-        btn.setOnClickListener(this);
-        Button btnn = findViewById(R.id.sign_up);
-        btnn.setOnClickListener(this);
+        tombol1 = (Button) findViewById(R.id.btn_login);
+
+        tombol1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent tombol1 = new Intent(FormLogin.this,Home.class);
+                startActivity(tombol1);
+            }
+        });
     }
-
-
-    @Override
-    public void onClick(View v) {
-            if (v.getId() == R.id.btn_login) {
-                Intent move = new Intent(FormLogin.this, PesanTiket.class);
-                startActivity(move);
-            }
-
-            if (v.getId() == R.id.sign_up) {
-                Intent movee = new Intent(FormLogin.this, FormRegistrasi.class);
-                startActivity(movee);
-            }
-        }
 }
