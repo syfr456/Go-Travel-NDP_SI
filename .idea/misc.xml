@@ -16,10 +16,13 @@
         <entry key="app/src/main/res/drawable/vector_arrow_left.xml" value="0.19427083333333334" />
         <entry key="app/src/main/res/layout/activity_detail.xml" value="0.19322916666666667" />
         <entry key="app/src/main/res/layout/activity_intro1.xml" value="0.19322916666666667" />
+        <entry key="app/src/main/res/layout/activity_invoice.xml" value="0.22" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.15353260869565216" />
         <entry key="app/src/main/res/layout/activity_mpembayaran.xml" value="0.5" />
         <entry key="app/src/main/res/layout/activity_pembayara.xml" value="0.19322916666666667" />
         <entry key="app/src/main/res/layout/activity_pembayaran.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/activity_pemesanan.xml" value="0.19322916666666667" />
+        <entry key="app/src/main/res/layout/activity_pesan_tiket.xml" value="0.19322916666666667" />
         <entry key="app/src/main/res/layout/activity_pesan_tiket2.xml" value="0.19322916666666667" />
         <entry key="app/src/main/res/layout/activity_splash.xml" value="0.19322916666666667" />
         <entry key="app/src/main/res/layout/pembayaran.xml" value="0.19322916666666667" />
