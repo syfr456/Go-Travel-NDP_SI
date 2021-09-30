@@ -6,7 +6,6 @@
     android:layout_height="match_parent"
     tools:context=".Pemesanan">
 
-
     <View
         android:id="@+id/rectangle_9"
         android:layout_width="wrap_content"
@@ -114,7 +113,7 @@
         android:id="@+id/imageView"
         android:layout_width="39dp"
         android:layout_height="26dp"
-        android:src="@drawable/LionAir"
+        android:src="@drawable/lion_air"
         app:layout_constraintBottom_toBottomOf="@+id/rectangle_box1"
         app:layout_constraintEnd_toEndOf="@+id/rectangle_box1"
         app:layout_constraintHorizontal_bias="0.015"

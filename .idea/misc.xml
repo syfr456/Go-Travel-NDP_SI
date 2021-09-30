@@ -4,8 +4,11 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/Rivaldo/AndroidStudioProjects/Go-Travel-NDP_SI/app/src/main/res/drawable/box_penerbangan.xml" value="0.2564814814814815" />
-        <entry key="..\:/Users/Rivaldo/AndroidStudioProjects/Go-Travel-NDP_SI/app/src/main/res/layout/activity_home.xml" value="0.1671195652173913" />
+        <entry key="..\:/Users/Rivaldo/AndroidStudioProjects/Go-Travel-NDP_SI/app/src/main/res/layout/activity_detail.xml" value="0.259375" />
+        <entry key="..\:/Users/Rivaldo/AndroidStudioProjects/Go-Travel-NDP_SI/app/src/main/res/layout/activity_form_registrasi.xml" value="0.259375" />
+        <entry key="..\:/Users/Rivaldo/AndroidStudioProjects/Go-Travel-NDP_SI/app/src/main/res/layout/activity_home.xml" value="0.264" />
         <entry key="..\:/Users/Rivaldo/AndroidStudioProjects/Go-Travel-NDP_SI/app/src/main/res/layout/activity_intro3.xml" value="0.1671195652173913" />
+        <entry key="..\:/Users/Rivaldo/AndroidStudioProjects/Go-Travel-NDP_SI/app/src/main/res/layout/activity_pemesanan.xml" value="0.259375" />
         <entry key="..\:/Users/Rivaldo/AndroidStudioProjects/Go-Travel-NDP_SI/app/src/main/res/layout/activity_pesan_tiket.xml" value="0.1671195652173913" />
         <entry key="app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.209375" />
         <entry key="app/src/main/res/drawable/go_travel_1.xml" value="0.209375" />
