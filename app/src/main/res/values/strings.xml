@@ -27,4 +27,8 @@
     <string name="tanah_lot">Tanah Lot</string>
     <string name="pesan_sekarang">Pesan Sekarang</string>
     <string name="kebijakan_privasi">kebijakan_privasi</string>
+    <!-- strings.xml -->
+    <string name="some_id">00 : 10 : 44</string>
+    <string name="versi_aplik">Versi Aplikasi 1.1.1</string>
+    <string name="selesaikan_">Selesaikan pemesanan dalam</string>
 </resources>

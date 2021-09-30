@@ -12,6 +12,15 @@
         android:theme="@style/Theme.GoTravel"
         tools:ignore="AllowBackup">
         <activity
+            android:name=".Invoice"
+            android:exported="true" />
+        <activity
+            android:name=".Pembayaran"
+            android:exported="true" />
+        <activity
+            android:name=".Splash"
+            android:exported="true" />
+        <activity
             android:name=".KebijakanPrivasi"
             android:exported="true" />
         <activity

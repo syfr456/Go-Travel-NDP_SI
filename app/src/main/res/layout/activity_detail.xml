@@ -114,7 +114,7 @@
         android:id="@+id/imageView"
         android:layout_width="39dp"
         android:layout_height="26dp"
-        android:src="@drawable/lion_air"
+        android:src="@drawable/LionAir"
         app:layout_constraintBottom_toBottomOf="@+id/rectangle_box1"
         app:layout_constraintEnd_toEndOf="@+id/rectangle_box1"
         app:layout_constraintHorizontal_bias="0.015"
